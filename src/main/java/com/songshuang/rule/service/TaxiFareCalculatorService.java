@@ -1,4 +1,4 @@
-package com.songshuang.rule.config;
+package com.songshuang.rule.service;
 
 import com.songshuang.rule.data.Fare;
 import com.songshuang.rule.data.TaxiRide;
