@@ -17,9 +17,23 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<drools.version>7.16.0.Final</drools.version>
+		<easy.rule.version>3.2.0</easy.rule.version>
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.jeasy</groupId>
+			<artifactId>easy-rules-core</artifactId>
+			<version>${easy.rule.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jeasy</groupId>
+			<artifactId>easy-rules-mvel</artifactId>
+			<version>${easy.rule.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
